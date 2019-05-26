@@ -3,7 +3,7 @@ A system for managing taekwondo championship(Taekwondo Championship Management S
 Coding in VB.net
 
 * Enter Player data
-* Emport player data in Xls sheet
+* Import player data in Xls sheet
 * Export player data in Xls sheet
 * Export player data in xml file
 * Export Chamionship setting in xml file
