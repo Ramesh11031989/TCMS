@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet>
+  <xs:schema id="Players_boys" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Players_boys" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Kyorugi_Player_boys">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Player_x0020_Name" type="xs:string" minOccurs="0" />
+                <xs:element name="District_x002F_State_x002F_Nation" type="xs:string" minOccurs="0" />
+                <xs:element name="Year_x0020_Of_x0020_Birth" type="xs:string" minOccurs="0" />
+                <xs:element name="Weight" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <Players_boys>
+      <Kyorugi_Player_boys diffgr:id="Kyorugi_Player_boys1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+        <Player_x0020_Name>Arvind</Player_x0020_Name>
+        <District_x002F_State_x002F_Nation>allahabad</District_x002F_State_x002F_Nation>
+        <Year_x0020_Of_x0020_Birth>2007</Year_x0020_Of_x0020_Birth>
+        <Weight>32</Weight>
+      </Kyorugi_Player_boys>
+      <Kyorugi_Player_boys diffgr:id="Kyorugi_Player_boys2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+        <Player_x0020_Name>vinay</Player_x0020_Name>
+        <District_x002F_State_x002F_Nation>kanpur</District_x002F_State_x002F_Nation>
+        <Year_x0020_Of_x0020_Birth>2008</Year_x0020_Of_x0020_Birth>
+        <Weight>34</Weight>
+      </Kyorugi_Player_boys>
+      <Kyorugi_Player_boys diffgr:id="Kyorugi_Player_boys3" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+        <Player_x0020_Name>dinesh</Player_x0020_Name>
+        <District_x002F_State_x002F_Nation>banaras</District_x002F_State_x002F_Nation>
+        <Year_x0020_Of_x0020_Birth>2006</Year_x0020_Of_x0020_Birth>
+        <Weight>32.5</Weight>
+      </Kyorugi_Player_boys>
+    </Players_boys>
+  </diffgr:diffgram>
+</DataSet>
